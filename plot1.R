@@ -35,7 +35,7 @@ my_data$Sub_metering_3 <- as.numeric(as.character(my_data$Sub_metering_3))
 
 Sys.setlocale("LC_TIME", "English")
 par(cex = 0.8)
-png(file = "plot1.png", width = 504, height = 504, units = "px")
+png(file = "plot1.png", width = 480, height = 480, units = "px")
 par(mfcol = c(1, 1))
 with(my_data, hist(Global_active_power, main = "Global Active Power", xlab = "Global Active Power (kilowatts)", col = "red"))
 dev.off()
